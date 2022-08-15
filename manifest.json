@@ -1,0 +1,14 @@
+{
+    "name": "Notion Chrome Bookmarks",
+    "description": "Load chrome bookmarks into the notion database",
+    "version": "1.0",
+    "manifest_version": 3, 
+    "permissions": [
+        "storage",
+        "bookmarks"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }, 
+    "options_page": "options.html"
+}
